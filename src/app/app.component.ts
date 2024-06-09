@@ -58,7 +58,7 @@ export class AppComponent {
     return this.form.controls['remedios'] as FormArray;
   }
 
-  title = 'prescription';
+  title = 'prescription1';
 
   constructor(private formBuilder: FormBuilder) {
   }
