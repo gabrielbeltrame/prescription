@@ -1,0 +1,29 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
+
+.example-container {
+  display: flex !important;
+
+  button {
+    margin: 10px 0 0 10px
+  }
+}
+
+.example-container mat-form-field + mat-form-field {
+  margin-left: 8px;
+}
+
+.mat-grid-tile div .mat-grid-tile-content {
+  align-items: flex-start !important;
+}
